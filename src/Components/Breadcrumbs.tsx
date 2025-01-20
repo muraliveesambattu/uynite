@@ -19,7 +19,7 @@ const BreadcrumbsWithFilter: React.FC<BreadcrumbProps> = ({
   };
 
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between py-4">
       {/* Breadcrumbs */}
       <nav className="flex items-center space-x-2 text-sm text-blue-600">
         {links.map((link, index) => (

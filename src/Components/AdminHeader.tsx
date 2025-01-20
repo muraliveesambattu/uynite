@@ -10,7 +10,7 @@ const AdminHeader: React.FC = () => {
   };
 
   return (
-    <header className="bg-white shadow-md border-b border-gray-200">
+    <header className="bg-white shadow-md border-b border-gray-200 fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between p-4">
         <div
           className="flex items-center mb-4 sm:mb-0 cursor-pointer"
